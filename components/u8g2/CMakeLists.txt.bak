@@ -1,5 +1,5 @@
-list(APPEND COMPONENT_ADD_INCLUDEDIRS csrc)
-list(APPEND COMPONENT_SRCS "csrc/u8x8_setup.c"
+set(COMPONENT_ADD_INCLUDEDIRS csrc)
+set(COMPONENT_SRCS "csrc/u8x8_setup.c"
                     "csrc/u8x8_u8toa.c"
                     "csrc/u8x8_d_ssd1306_96x16.c"
                     "csrc/u8g2_d_memory.c"
